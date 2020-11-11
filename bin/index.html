@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Change your name in Decentraland!</title>
+    <link rel="icon"
+      type="image/png"
+      href="icon.png">
+</head>
+<body>
+    <div class="wrapper">
+        <span class="choose">Choose a new name for your avatar!</span>
+        <select id="select" data-role="select"></select>
+        <button id="save" class="disabled button secondary rounded drop-shadow">Save new name to my profile</button>
+    </div>
+    <div id="info-box" class="info-box" data-role="infobox" style="visibility: hidden;">
+        <span class="button square closer"></span>
+        <div class="info-box-content">
+            <h3>And that's it!</h3>
+            <p>Your new name was deployed! You might need to wait up to two minutes (and then refresh) for the changes to be visible. You might need to also clear the local storage for it to work (<a href="chrome://settings/cookies/detail?site=play.decentraland.org">How to do it on Chrome</a>)</p>
+        </div>
+    </div>
+    <script src="main.bundle.js"></script>
+    <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
+</body>
+</html>
+

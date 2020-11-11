@@ -1,0 +1,22 @@
+* {
+    outline: 0;
+    font-family: sans-serif
+  }
+  body {
+    background-color: #fafafa
+  }
+  span.msg,
+  span.choose {
+    color: #555;
+    padding: 5px 0 10px;
+    display: inherit
+  }
+  .wrapper {
+    width: 500px;
+    margin: 50px auto 0;
+    text-align: center
+  }
+
+  #save {
+      margin-top: 20px;
+  }
